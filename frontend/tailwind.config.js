@@ -5,11 +5,11 @@ module.exports = {
          colors: {
             background: {
                light: '#ffffff',
-               dark: '#0a0a0a',
+               dark: '#121212',
             },
             foreground: {
-               light: '#171717',
-               dark: '#ededed',
+               light: '#000000',
+               dark: '#ffffff',
             },
          },
       },
