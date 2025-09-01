@@ -6,7 +6,7 @@ import AuthButton from './AuthButton';
 import Button from '../UI/Button';
 
 const Header = () => {
-   const isAuth = false;
+   const isAuth = true;
    return (
       <header className="relative flex items-center gap-4 py-4 px-4 shadow shadow-neutral-400/40">
          <div className="flex-2 justify-items-start">
