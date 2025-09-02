@@ -32,7 +32,7 @@ export default function RootLayout({
          >
             <Providers>
                <Header />
-               <div className="flex-1">{children}</div>
+               <div className="flex-1 container mx-auto">{children}</div>
                <Footer />
             </Providers>
          </body>

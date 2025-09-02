@@ -267,6 +267,7 @@ const AuthModal = ({ onClose }: Props) => {
                      <Link
                         href="/forgot-password"
                         className="text-blue-500 hover:text-blue-600"
+                        onClick={() => onClose()}
                      >
                         Забыли пароль?
                      </Link>
